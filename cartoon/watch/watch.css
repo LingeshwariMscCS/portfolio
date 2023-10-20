@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+   background-color: #081b29; /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clock {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color:#0ef ;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.time {
+    display: inline;
+}
+
+.ampm {
+    font-size: 0.5em;
+    vertical-align: super;
+    margin-left: 5px;
+}
